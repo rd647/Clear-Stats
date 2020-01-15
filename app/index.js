@@ -18,6 +18,7 @@ const mySteps = document.getElementById("steps");
 const myBattery = document.getElementById("battery");
 const stepLabel = document.getElementById("stepLabel");
 
+myBattery.text = Math.floor(battery.chargeLevel) + "%";
 battery.onchange = function() {
 	myBattery.text = Math.floor(battery.chargeLevel) + "%";
 }
@@ -48,6 +49,7 @@ clock.ontick = (evt) => {
   }
   dayOfWeek.text = `${day} ${numday}`;
   mainTime.text = `${hours}:${mins}`;
+  mySteps.text = today.adjusted.steps;
   // myDay.text = `${numday}`;
   // dayOfWeek.text = `${ampm}`;
 }
@@ -66,5 +68,4 @@ hrm.onreading = function() {
 
 // Begin monitoring the sensor
 hrm.start();
-mySteps.text = today.adjusted.steps;
 
