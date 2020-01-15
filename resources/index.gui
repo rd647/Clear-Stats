@@ -1,0 +1,11 @@
+<svg class="background">
+  <text id="mainTime" />
+  <text id="dayOfWeek" />
+  <text id="hrm" />
+  <text id="myDay" />
+  <text id="steps" />
+  <text id="battery" />
+  <text id="stepLabel" />
+  <image id="heartIcon" href="heart.png" x="15" y="273" width="15" height="15" class="foreground" />
+</svg>
+

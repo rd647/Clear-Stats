@@ -1,0 +1,79 @@
+.background {
+  viewport-fill: black;
+}
+
+#mainTime {
+  font-size: 150;
+  font-family: Tungsten-Medium;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+55;
+  fill: fb-blue;
+}
+#dayOfWeek {
+  font-size: 27;
+  font-family: Colfax-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 10%+40;
+  fill: turquoise;
+}
+/*#myDay {
+  font-size: 27;
+  font-family: Colfax-Regular;
+  text-length: 32;
+  text-anchor: start;
+  x: 52%;
+  y: 15%+40;
+  fill: fb-blue;
+}*/
+#hrm {
+  font-size: 30;
+  font-family: Colfax-Regular;
+  text-length: 32;
+  text-anchor: start;
+  x: 5%;
+  y: 85%+15;
+  fill: fb-white;
+}
+/*#hrLabel {
+  font-size: 15;
+  font-family: Colfax-Regular;
+  text-length: 32;
+  text-anchor: start;
+  x: 5%;
+  y: 90%+15;
+  fill: fb-white;
+}*/
+#steps {
+  font-size: 30;
+  font-family: Colfax-Regular;
+  text-length: 32;
+  text-anchor: end;
+  x: 95%;
+  y: 85%+15;
+  fill: fb-white;
+}
+#stepLabel {
+  font-size: 15;
+  font-family: Colfax-Regular;
+  text-length: 32;
+  text-anchor: end;
+  x: 95%;
+  y: 90%+15;
+  fill: fb-white;
+}
+#battery {
+  font-size: 20;
+  font-family: Colfax-Regular;
+  text-length: 32;
+  text-anchor: start;
+  x: 0%;
+  y: 0%+20;
+  fill: fb-white;
+}
+#heartIcon {
+  size: 15;
+}
